@@ -32,7 +32,7 @@ header .header-icons-container {
   background-color: #47cfac;
 }
 
-header .header-icons-container .icons{
+header .header-icons-container .icons {
   width: 300px;
   height: auto; /* para que sea tan alto como su padre */
   display: flex;
@@ -41,4 +41,8 @@ header .header-icons-container .icons{
   justify-content: space-between; /* espacio entre cada elemento */
   justify-self: end;
   margin-right: 50px;
+}
+
+header .icons span {
+  color: white;
 }
