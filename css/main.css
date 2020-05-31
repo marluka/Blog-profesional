@@ -1,0 +1,44 @@
+/* Quitamos los estilos por defecto que añade el navegador */
+body {
+  margin: 0;
+  padding: 0;
+  /* Truco para evitar scroll */
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Quitar estilos a los enlaces */
+a {
+  text-decoration: none;
+  display: inline;
+  color: black;
+}
+
+/* Estilos para el Header */
+header {
+  width: 100%;
+  height: 140px; /* repartido en: 50px a .header-icons-container y 90px a nav*/
+  display: grid;
+  grid-template-rows: 1fr 1fr; /* 2 filas para el header */
+}
+
+header .header-icons-container {
+  width: 100%; /* igual ancho que su padre */
+  height: 50px;
+  display: grid; /* para posicionar mejor el div */
+  background-color: #47cfac;
+}
+
+header .header-icons-container .icons{
+  width: 300px;
+  height: auto; /* para que sea tan alto como su padre */
+  display: flex;
+  justify-items: flex-end; /* Alineado horizontal: al final - lado derecho*/
+  align-items: center; /* Alineado vertical */
+  justify-content: space-between; /* espacio entre cada elemento */
+  justify-self: end;
+  margin-right: 50px;
+}
