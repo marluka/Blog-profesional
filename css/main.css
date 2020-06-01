@@ -1,3 +1,6 @@
+/* Fuentes importadas de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
 /* Quitamos los estilos por defecto que añade el navegador */
 body {
   margin: 0;
@@ -95,8 +98,9 @@ nav .profile-link a {
 }
 
 .home-main-text {
+  font-family: 'Roboto Mono', monospace;
   font-size: 30px;
-  font-weight: 700px;
+  font-weight: 700;
   letter-spacing: 10px;
   color: white;
   text-align: center;
