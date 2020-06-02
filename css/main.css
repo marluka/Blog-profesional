@@ -235,18 +235,30 @@ footer p  {
   font-size: 35px;
 }
 
+
 .contact-main-container {
   width: 100%;
   min-height: 250px;
   background-color: #e6e9ed;
-  text-align: center;
   padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 490px 490px 1fr;
+  grid-template-rows: 1rf;
+  grid-template-areas: ". contacto escribe .";
 }
 
-.contact-main-container div {
-  display: inline-block;
-  width: 49.5%;
-  height: 100%;
+.contact-main-container .contact-left, .contact-right {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: auto;
+}
+
+.contact-main-container .contact-left {
+  grid-area: contacto;
+}
+
+.contact-main-container .contact-right {
+  grid-area: escribe;
 }
 
 .contact-main-container div a {
@@ -254,11 +266,11 @@ footer p  {
   padding-bottom: 5px;
 }
 
-.contact-main-container .contact-left, .contact-right {
-  text-align: initial;
-  margin-top: 85px;
-}
-
 .contact-main-container img {
   width: 100px;
-}
+  margin: auto;
+} 
+
+/* ********** Estilos del perfil ********** */
+
+
