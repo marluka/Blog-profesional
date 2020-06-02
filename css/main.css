@@ -156,7 +156,7 @@ nav .profile-link a {
 }
 
 .blogs-news-img-container img {
-  width: 85%;
+  width: 90%;
 }
 
 .blogs-news-info-container {
@@ -242,7 +242,7 @@ footer p  {
   background-color: #e6e9ed;
   padding-bottom: 50px;
   display: grid;
-  grid-template-columns: 1fr 490px 490px 1fr;
+  grid-template-columns: 1fr 475px 475px 1fr;
   grid-template-rows: 1rf;
   grid-template-areas: ". contacto escribe .";
 }
@@ -266,8 +266,13 @@ footer p  {
   padding-bottom: 5px;
 }
 
+.contact-main-container div p {
+  padding-right: 20px;
+}
+
 .contact-main-container img {
   width: 100px;
+  padding: 10px;
   margin: auto;
 } 
 
