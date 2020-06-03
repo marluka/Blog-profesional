@@ -243,7 +243,6 @@ footer p  {
   padding-bottom: 50px;
   display: grid;
   grid-template-columns: 1fr 475px 475px 1fr;
-  grid-template-rows: 1rf;
   grid-template-areas: ". contacto escribe .";
 }
 
